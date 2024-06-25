@@ -2,6 +2,9 @@
 
 ![website thumbnail](<Screenshot 2024-06-24 at 11.50.10 PM.png>)
 
+[
+](https://devwes91.github.io/Personal-Blog/)
+
 ## This is a personal blog page for a user to write down their thoughts, feelings, notes or whatever they please. The page then saves the sumbissions and redirects to a listed page with a history of all posts made for a user to review. 
 
 ## Getting Started
