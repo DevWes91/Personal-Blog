@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevWes91 | Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link rel="stylesheet" href="assets/css/form.css"/>
+</head>
+
+<body>
+    <header>
+        <h1>My Personal Blog</h1>
+        <button id="lightdarkmode"></button>
+    </header>
+    <main>
+        <section>
+            <h2>Write Your Thoughts</h2>
+            <form>
+                <label for="username">Username: </label>
+                <input id="username" type="text">
+
+                <label for="title">Title: </label>
+                <input id="title" type="text">
+
+                <label for="content">Content: </label>
+                <textarea id="content" type ="text" rows="10" cols="50"></textarea>
+
+                <p id="error"></p>
+
+                <input id="publish" type="submit" value="Publish">
+            </form>
+        </secton>
+    </main>
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/form.js"></script>
+</body>
+</html>
