@@ -1,0 +1,100 @@
+/* RESETS */
+/* Normalize box-sizing */
+*,
+*::before,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+/* Set font sizes */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+/* Reset fonts for the inputs and button */
+input,
+textarea,
+button {
+    font-size: 100%;
+    font-family: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Styling rules */
+/* Set general style rules for both form & blog pages */
+:root {
+    --lightmode: #C8BFDA;
+    --darkmode: #322b3e;
+    --lightaccent: #8B7893;
+    --darkaccent: #4c3d62;
+}
+
+* {
+    transition: background-color ease-in 1s;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    border-width: 10px;
+    border-color: var(--darkmode)
+}
+
+.darkmode header {
+    background-color: var(--darkmode);
+    color: var(var(--lightaccent));
+}
+
+.lightmode header {
+    background-color: var(--lightmode);
+    color: var(--darkmode);
+}
+
+.darkmode main {
+    background-color: var(--darkaccent);
+    color: var(--lightmode);
+    border: solid 10px var(--lightaccent)
+}
+
+.lightmode main {
+    background-color: var(--lightaccent);
+    color: var(--darkmode)
+}
+
+#lightdarkmode {
+    background: transparent;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+
+
